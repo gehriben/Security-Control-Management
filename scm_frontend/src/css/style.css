@@ -1,0 +1,216 @@
+/* ------------------------------------- */
+/* GENERAL */
+/* ------------------------------------- */
+
+  body div.content {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 250px;
+    width: 85vw;
+  }
+
+  .buttons {
+    border: none;
+    font-family: Montserrat-Medium;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 10px 60px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    width: 100%;
+  }
+
+  .btnGreen {
+  background: #2ecc71;
+  color: #fff;
+  }
+
+  .btnGreen:hover {
+  background: #79dba2;
+  color: #fff;
+  }
+
+  .btnRed {
+  background:#cc4747;
+  color: #fff;
+  }
+
+  .mbutton {
+    width: 20%;
+  } 
+
+  .txt {
+    width: 100%;
+    padding: 5px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  tbody.highlightedRow tr:first-child {
+    background-color:#888;
+    font-weight: bold;
+  }
+
+/* ------------------------------------- */
+/* TOPNAV */
+/* ------------------------------------- */
+  .topnav {
+    width: 100%;
+    background-color: #b51643;
+    position: fixed;
+    overflow-x: hidden;
+    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    z-index: 1;
+  }
+
+  .topnav span {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+    width: 100%;
+  }
+
+  #logo {
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 2;
+    margin: 2px 0px 0px 20px;
+  }
+
+/* ------------------------------------- */
+/* SIDENAV */
+/* ------------------------------------- */
+  .sidenav {
+      height: 100%; /* 100% Full-height */
+      width: 200px;
+      position: fixed;
+      background-color: #E8E8E8; /* Black*/
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 70px; /* Place content 60px from the top */
+      /* box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+      border-right: 1px solid #C6C6C6;
+      z-index: 1;
+  }
+  
+  #topSection a {
+      padding: 8px 8px 8px 15px;
+      text-decoration: none;
+      font-size: 17px;
+      color: #181B12;
+      display: block;
+  }
+
+  #bottomSection {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+  }
+  
+  #bottomSection a {
+    padding: 8px 8px 8px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #181B12;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+      background-color: #FFFFFF;
+      color: black;
+  }
+  
+  hr.solid {
+    border-top: 2px solid #C6C6C6;
+    padding: 0px;
+    margin: auto;
+    width: 90%;
+  }
+
+/* ------------------------------------- */
+/* Asset Page */
+/* ------------------------------------- */
+  #tblAssets {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  #tblAssets td, #tblAssets th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #tblAssets tr:nth-child(even){background-color: #f2f2f2;}
+
+  /* #tblAssets tr:hover {background-color: #ddd;} */
+
+  #tblAssets th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0897bb;
+    color: white;
+  }
+
+/* ------------------------------------- */
+/* Modal */
+/* ------------------------------------- */
+
+  #modal {
+    display: block;
+  }
+
+  /* The Modal (background) */
+  .modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60% !important; /* Could be more or less, depending on screen size */
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
